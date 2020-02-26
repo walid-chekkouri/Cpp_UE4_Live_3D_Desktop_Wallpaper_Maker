@@ -1,0 +1,15 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-VictoryBPLibrary.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\walid\Desktop\LiveDesktopWallpaper\Plugins\Victory24\Intermediate\Build\Win64\UE4Editor\Development\VictoryBPLibrary\PCH.VictoryBPLibrary.h.obj"
+"C:\Users\walid\Desktop\LiveDesktopWallpaper\Plugins\Victory24\Intermediate\Build\Win64\UE4Editor\Development\VictoryBPLibrary\Module.VictoryBPLibrary.cpp.obj"
+"C:\Users\walid\Desktop\LiveDesktopWallpaper\Plugins\Victory24\Intermediate\Build\Win64\UE4Editor\Development\VictoryBPLibrary\Module.VictoryBPLibrary.gen.1_of_2.cpp.obj"
+"C:\Users\walid\Desktop\LiveDesktopWallpaper\Plugins\Victory24\Intermediate\Build\Win64\UE4Editor\Development\VictoryBPLibrary\Module.VictoryBPLibrary.gen.2_of_2.cpp.obj"
+"C:\Users\walid\Desktop\LiveDesktopWallpaper\Plugins\Victory24\Intermediate\Build\Win64\UE4Editor\Development\VictoryBPLibrary\Default.rc2.res"
+/OUT:"C:\Users\walid\Desktop\LiveDesktopWallpaper\Plugins\Victory24\Intermediate\Build\Win64\UE4Editor\Development\VictoryBPLibrary\UE4Editor-VictoryBPLibrary.lib"
+/INCLUDE:IMPLEMENT_MODULE_VictoryBPLibrary

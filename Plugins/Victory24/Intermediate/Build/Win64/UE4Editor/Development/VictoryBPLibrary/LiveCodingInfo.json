@@ -1,0 +1,26 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.VictoryBPLibrary.cpp.obj": [
+			"TKMathFunctionLibrary.cpp.obj",
+			"VictoryBPFunctionLibrary.cpp.obj",
+			"VictoryBPFunctionLibrary_WinOS.cpp.obj",
+			"VictoryBPHTML.cpp.obj",
+			"VictoryBPLibrary.cpp.obj",
+			"VictoryISM.cpp.obj",
+			"VictoryPC.cpp.obj",
+			"VictoryTMapComp.cpp.obj"
+		],
+		"Module.VictoryBPLibrary.gen.1_of_2.cpp.obj": [
+			"TKMathFunctionLibrary.gen.cpp.obj",
+			"VictoryBPFunctionLibrary.gen.cpp.obj"
+		],
+		"Module.VictoryBPLibrary.gen.2_of_2.cpp.obj": [
+			"VictoryBPHTML.gen.cpp.obj",
+			"VictoryBPLibrary.init.gen.cpp.obj",
+			"VictoryISM.gen.cpp.obj",
+			"VictoryPC.gen.cpp.obj",
+			"VictoryTMapComp.gen.cpp.obj"
+		]
+	}
+}
