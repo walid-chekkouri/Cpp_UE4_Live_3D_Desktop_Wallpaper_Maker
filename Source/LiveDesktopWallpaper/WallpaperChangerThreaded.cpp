@@ -47,7 +47,7 @@ void WallpaperClass::DoWork()
 {
 
 	//int result = SystemParametersInfo(SPI_SETDESKWALLPAPER, 0, const_cast<TCHAR*>(*imgPath), SPIF_UPDATEINIFILE);
-	int result = SystemParametersInfo(SPI_SETDESKWALLPAPER, 0, const_cast<TCHAR*>(*imgPath),0);
+	int result = SystemParametersInfo(SPI_SETDESKWALLPAPER, 0, const_cast<TCHAR*>(*imgPath),SPIF_UPDATEINIFILE | SPIF_SENDWININICHANGE);
 	//bool changed = (result == 0 ? false : true);
 
 	//Log Result
