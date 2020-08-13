@@ -11,7 +11,7 @@
 bool UWallpaper_Function::setWallpaper(const FString& filePath)
 {
 
-	int result = SystemParametersInfo(SPI_SETDESKWALLPAPER, 0, const_cast<TCHAR*>(*filePath), SPIF_UPDATEINIFILE);
+	int result = SystemParametersInfo(SPI_SETDESKWALLPAPER, 0, const_cast<TCHAR*>(*filePath), SPIF_UPDATEINIFILE | SPIF_SENDWININICHANGE);
 	bool changed = (result == 0 ? false : true);
 
 	//Log Result
