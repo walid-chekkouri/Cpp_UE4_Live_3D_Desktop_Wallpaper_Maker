@@ -9,8 +9,8 @@ Dynamic Desktop Wallpaper tool made using UE4 in C++ and BP.
  This project uses Victory plugin in order to use certain BP nodes. Here is the official plugin page: 
 https://github.com/EverNewJoy/VictoryPlugin
 
- PS: the FPS is dropped due to the memory usage in the project so please share any changes to the code to help improve the performance, all suggestions are welcomed.
-Projected initially created in Unreal Engine 4.24
+ PS: the FPS is dropped due to the tick function used to update the wallpaper each frame, this is just a prototype for now since the improved version is currently under development.
+Project initially created in Unreal Engine 4.24
 
 ## Contents:
 
